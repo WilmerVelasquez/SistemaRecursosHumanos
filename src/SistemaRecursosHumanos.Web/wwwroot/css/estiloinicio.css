@@ -1,0 +1,203 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+	font-family: Verdana;
+	
+}
+
+
+body{
+	background-size: 100% 100%;
+}
+
+.borde{
+	border: 1px solid #fff;
+}
+.titulo h1{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+	background: #fff;
+	color:#0C4157;
+}
+/*contenedor*/
+.contenedor{
+	width: 100%;
+	max-width: 2000px;
+	margin: auto;
+}
+
+/*navegador*/
+nav{
+	width: 100%;
+	height: 50px;
+	background:#fff;
+}
+.logo img{
+	width: 60px;
+	height: 50px;
+	border-radius: 90%;
+}
+.logo{
+	width: 20%;
+	height: 100%;
+	float: left;
+	padding: 1px;
+	text-align: center;
+
+}
+.navegacion{
+	width: 65%;
+	height: 100%;
+	float: left;
+}
+/*NIVEL 0*/
+nav ul{
+	list-style: none;
+	text-align: right;
+} 
+nav ul li{
+	font-size: 13px;
+	width: 150px;
+	background:#000;
+}
+nav ul li:hover ul{
+	display: block;
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color:#fff;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 5px;
+}
+nav ul li a:hover{
+	background:rgba(0,0,0,.3);
+}
+
+.ingreso{
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+nav .ingreso ul li{
+	width: 100%;
+}
+/*Nivel 1*/
+nav li ul{
+	position: absolute;
+	display: none;
+}
+nav .navegacion>ul>li{
+	display: inline-block;
+}
+nav .ingreso li ul{
+	width: 15%;
+}
+
+
+
+/*header*/
+header{
+	width: 100%;
+	height: 750px;
+	background: #F1C232;
+	background-size: 100% 100%;
+
+}
+/*texto de imagen*/
+.t-imagen{
+	color:#000;
+	font-size: 60px;
+	margin: 0;
+	text-align: center;
+	padding: 300px;
+}
+
+/*portafolio*/
+main#portafolio{
+	width: 100%;
+	height:600px;
+}
+.div-porta{
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.div-porta img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.div-porta p{
+	padding: 15px;
+	margin-top: 20px;
+	text-align: justify;
+}
+.div-porta h2{
+	margin-top: 20px;
+}
+
+/*quienes-somos*/
+section#quienes-somos{
+	width: 100%;
+	height: 800px;
+}
+.fila{
+	width: 100%;
+	height: 33.33%;
+}
+.col-ext{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.col-cen{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+/*contactenos*/
+section#contactenos{
+	width: 100%;
+	height: 600px;
+}
+.div-contacto{
+	width: 50%;
+	height: 100%;
+	float:  left;
+	padding: 20px;
+}
+.div-arriba{
+	width: 100%;
+	height: 70%;
+	padding: 15px;
+}
+.div-arriba iframe{
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+.div-abajo{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+	padding: 40px 10px 10px 10px;
+}
+.div-abajo img{
+	width: 50px;
+	height: 50px;
+	border-radius: 30%;
+}
+/*píe de página*/
+footer{
+	width:100%;
+	height: 50px;
+}
